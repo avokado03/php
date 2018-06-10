@@ -1,0 +1,15 @@
+<?php
+    echo "
+    <head>
+        <link rel='stylesheet' href='PositionStyle.css'>
+    </head>
+    <div class='position'>
+        <div class='image'>
+        </div>
+        <div class='buy'>
+            <p>Товар</p>
+            <input class='butt' type='button' value='Купить'>
+        </div>
+    </div>
+    ";
+?>

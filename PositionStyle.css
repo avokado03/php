@@ -1,0 +1,33 @@
+div{
+
+}
+.position{
+    font-family: "Arial",serif;
+    font-size: 2em;
+    background-color: #878787;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 0.5fr;
+}
+.image{
+    background-image: url("123.jpg");
+}
+.buy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.butt{
+    display: inline-block;
+    background-color: #e6c000;
+    font-family: "Arial",serif;
+    font-size: 0.7em;
+    margin: 2%;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+    border-style: none;
+}
+.butt:hover{
+    background-color: #ffd700;
+}

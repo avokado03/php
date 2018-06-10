@@ -1,36 +1,85 @@
 body{
     margin: 0;
-    font-family: "Nunito",serif;
+    font-family: "Nunito","Arial", serif;
 }
 header{
     display: flex;
     margin: 0;
-    background-image: url("header.jpg");
+    background-image: url("123.jpg");
     min-height: 30em;
     max-height: 45em;
     align-items: center;
 }
 header p{
     display: block;
-    font-size: 6.5em;
+    font-size: 7em;
     margin: auto;
+    background: linear-gradient(to top, transparent, rgba(255,255,255,0.3),transparent);
+    width: 100%;
+    text-align: center;
+
 }
 nav{
     display: grid;
+    position: relative;
     margin: 0;
     background-color: black;
     font-size: 2em;
     color: #ffffff;
-    min-height: 3em;
+    min-height: 2.3em;
     max-height: 5em;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 0.5fr;
+    grid-template-columns: 1fr 0.2fr 0.24fr 0.24fr 0.24fr 1fr;
+    box-shadow: 0 0.3em 15px rgba(0,0,0,0.5);
 }
-nav:first-child{
-    display: grid;
-    grid-template-columns: 15px 15px;
-    grid-template-rows: 1fr;
+nav p{
+    margin: 0 0 0 15%;
+
+}
+#logo:first-letter, #shop{
+    color: #e6c000;
+}
+#simple{
+    font-size: 0.7em;
+    font-family: "Lobster",serif;
 }
 nav div{
+    align-self: center;
+}
+
+main{
     display: grid;
+    grid-template-columns: 0.7fr 3fr;
+    background-color: #dbdbdb;
+}
+#navBlock{
+    background-color: black;
+    color: white;
+    box-shadow:  0.4em 0 15px rgba(0,0,0,0.5);
+}
+ul{
+    margin-top: 15%;
+    margin-left: 10%;
+    list-style-type: none;
+    font-size: 1.7em;
+}
+li{
+    font-size: 0.9em;
+}
+#mainInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1.2em;
+    grid-row-gap: 1.2em;
+    padding: 2em;
+}
+footer{
+
+}
+footer p{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 0.7em;
+    width: 100%;
+    text-align: center;
 }
